@@ -1,5 +1,6 @@
 const submit = document.getElementById('submit');
 const p = document.getElementById('click');
-if(submit.onclick()){
-    p.textContent = "Hey you clicked me once";
-}
+submit.addEventListener('click', function(){
+    event.preventDefault();
+    p.textContent = "Hey you clicked once on me. Event type is: " + event.type;
+});
