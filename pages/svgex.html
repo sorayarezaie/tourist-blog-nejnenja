@@ -17,7 +17,9 @@
         </svg>
 
         <!--  Geolocation API -->
-
+           <button>show</button>
+           
+           <p></p>
 
 
 
@@ -28,14 +30,12 @@
 
         <script>
             var x = document.getElementById( show );
-
              function getlocation() {
                 if (nevigator. geolocation) {
                     nevigator . geolocation . getcurrentposition (showposition);
              } else {
                 x.innerHTML = "geolocation is not supported by this browser";
                 }
-
              }
              
              function showposition (position) {
