@@ -30,11 +30,16 @@
             var x = document.getElementById( show );
 
              function getlocation() {
-                if (nevigator. geolocation)
+                if (nevigator. geolocation) {
                     nevigator . geolocation . getcurrentposition (showposition);
              } else {
-                x.innerHTML
+                x.innerHTML = "geolocation is not supported by this browser";
+                }
 
+             }
+             
+             function showposition (position) {
+                
              }
         </script>
     </body>
