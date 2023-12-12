@@ -19,7 +19,7 @@
         <!--  Geolocation API -->
            <button onclick="getlocation()">show</button>
            
-           <p></p>
+           <p id="show"></p>
 
 
 
@@ -29,10 +29,10 @@
 
 
         <script>
-            var x = document . getElementById( "show" );
-             function getlocation() {
+            var x = document.getElementById( "show" );
+             function getLocation() {
                 if (nevigator. geoLocation) {
-                    nevigator . geolocation . getCurrentPosition (showPosition);
+                   nevigator . geolocation . getCurrentPosition (showPosition);
              } else {
                 x.innerHTML = "geolocation is not supported by this browser";
                 }
