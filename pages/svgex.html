@@ -31,14 +31,14 @@
         <script>
             var x = document . getElementById( "show" );
              function getlocation() {
-                if (nevigator. geolocation) {
-                    nevigator . geolocation . getcurrentposition (showposition);
+                if (nevigator. geoLocation) {
+                    nevigator . geolocation . getCurrentPosition (showPosition);
              } else {
                 x.innerHTML = "geolocation is not supported by this browser";
                 }
              }
              
-             function showposition (position) {
+             function showPosition(position) {
                 x . innerHTML = "Latitude: " + position . coords . longitude;
              }
         </script>
