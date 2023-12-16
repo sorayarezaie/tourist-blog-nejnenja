@@ -11,7 +11,7 @@
   .menu a {
     background-color: #dcd8cc;
     padding: 8px;
-    text-decoration: none;
+    text-decoration: underline;
     margin-top: 7px;
     display: block;
     width: 100%;
