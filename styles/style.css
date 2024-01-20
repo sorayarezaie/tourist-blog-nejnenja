@@ -46,3 +46,12 @@
    h3{
     color: rgb(212, 212, 12);
    } 
+  #head1{
+    color: blue;
+  }
+ #head2{
+  color: darkolivegreen;
+ }
+ .head{
+  color: darkred;
+ }
