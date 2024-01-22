@@ -72,3 +72,9 @@ div p {
 #d3 > p{
   color: darkslategray;
 }
+#d3 + p{
+  color: beige;
+}
+#d3 ~ p {
+  color: brown;
+}
