@@ -73,7 +73,7 @@ div p {
   color: darkslategray;
 }
 #d3 + p{
-  color: beige;
+  color: rgb(145, 145, 7);
 }
 #d3 ~ p {
   color: brown;
