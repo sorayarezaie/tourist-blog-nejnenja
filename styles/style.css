@@ -69,6 +69,6 @@ div p {
 #d2 > p{
   color: black;
 }
-#d3 p{
+#d3 > p{
   color: darkslategray;
 }
