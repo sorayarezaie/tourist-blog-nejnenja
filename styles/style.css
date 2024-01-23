@@ -78,6 +78,6 @@ div p {
 #d3 ~ p {
   color: rgb(114, 2, 2);
 }
-#d4{
+#d4 + p {
   color: darkred;
 }
