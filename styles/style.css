@@ -46,6 +46,10 @@
     height: 23px;
     background-color: green;
   }
+  p#div{
+    color: blueviolet;
+    background-size: 10lvb;
+  }
   /* }
   body{
     background-color: rgb(233, 18, 165);
