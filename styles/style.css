@@ -40,6 +40,12 @@
       width: 100%;
     }
   }
+  p.div{
+    color: red;
+    width: 40%;
+    height: 23px;
+    
+  }
   /* }
   body{
     background-color: rgb(233, 18, 165);
