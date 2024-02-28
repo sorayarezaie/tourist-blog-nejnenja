@@ -40,13 +40,25 @@
       width: 100%;
     }
   }
+  header div{
+    color: black;
+    text-align: center;
+    border-left: 1px solid #000;
+  }
+
+  header span{
+    color: black;
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+  }
   p.div{
     color: red;
     width: 40%;
     height: 23px;
     background-color: green;
   }
-  p#div{
+  div{
     color: blueviolet;
     background-size: 10lvb;
   }
